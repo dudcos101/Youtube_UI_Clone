@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b5077c712f.js" crossorigin="anonymous"></script>
+    <title>Youtube UI Clone</title>
 </head>
+
 <body>
-    kimcy2 first project
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+
+    </header>
+    <!-- Video Player -->
+    <section class="player">
+        <video controls width=500 src="Video/Sample.MOV"></video>
+    </section>
+    <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#HanRiver</li>
+                <li>#2ndSubway</li>
+                <li>#Subway</li>
+            </ul>
+            <div class="titleAndButton"></div>
+            <span class="title">
+                #직장인 출퇴근 Vlog : 2호선 한강 지하철 뷰 - 여의도 | 국회의사당 | 더현대
+            </span>
+            <button class="moreBtn">
+                <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="views">
+                <span class="views">1M views 1 month ago</span>
+            </div>
+        </div>
+        <!-- Actions -->
+        <div class="actions">
+            <li><button><i class="fas fa-thumbs-up"></i><span>1K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+        </div>
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="Image/Avatar.png" width=50 alt="" />
+                <div class="info">
+                    <span class="name">직장인 Vlog</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+            </div>
+
+            <!-- Up Next -->
+            <button class="subscirbe">
+                <span class="title">Up Next</span>
+                <ul>
+                    <li class="item">
+                        <img src="" alt="">
+                        <div class="info">
+                            <span class="title"></span>
+                            <span class="name"></span>
+                            <span class="views"></span>
+                        </div>
+                        <button class="moreBtn"></button>
+                    </li>
+                    <li class="item">
+                        <img src="" alt="">
+                        <div class="info"></div>
+                        <button class="moreBtn"></button>
+                    </li>
+                    <li class="item">
+                        <img src="" alt="">
+                        <div class="info"></div>
+                        <button class="moreBtn"></button>
+                    </li>
+                </ul>
+            </button>
+
+        </div>
+    </section>
+    <section class="upNext"></section>
+
 </body>
+
 </html>
